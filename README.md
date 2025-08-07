@@ -45,7 +45,7 @@ sudo dnf install -y golang
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/destroyersrt/go-nanda.git
 cd go-nanda
 
 # Build the binary
@@ -148,7 +148,7 @@ GOOS=windows GOARCH=amd64 go build -o go-nanda-sdk.exe cmd/nanda-sdk/main.go
 
 ## Dependencies
 
-- Go 1.21 or later
+- Go 1.19 or later
 - Ansible (must be installed on the target server)
 - Internet connectivity for IP detection and certificate generation
 
